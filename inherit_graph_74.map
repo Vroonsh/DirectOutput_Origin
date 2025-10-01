@@ -1,0 +1,315 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="11,356,94,383"/>
+<area shape="rect" id="Node000001" href="$class_direct_output_1_1_general_1_1_generic_1_1_ext_list-1-g.html" title="Extended version of the generic List class supporting events for various actions on the list." alt="" coords="148,348,345,391"/>
+<area shape="poly" id="edge47_Node000000_Node000001" title=" " alt="" coords="109,367,147,367,147,372,109,372"/>
+<area shape="rect" id="Node000002" href="$class_direct_output_1_1_f_x_1_1_assigned_effect_list.html" title="List of effects which are assigned to some other object." alt="" coords="404,248,579,291"/>
+<area shape="poly" id="edge48_Node000001_Node000002" title=" " alt="" coords="305,339,392,300,423,289,424,294,394,305,307,343"/>
+<area shape="rect" id="Node000003" href="$class_direct_output_1_1_general_1_1_generic_1_1_named_item_list-1-g.html" title="A list of uniquely named items which can be referenced by their name." alt="" coords="393,315,590,357"/>
+<area shape="poly" id="edge49_Node000001_Node000003" title=" " alt="" coords="360,351,392,347,393,352,361,356"/>
+<area shape="rect" id="Node000131" href="$class_direct_output_1_1_table_1_1_table_element_list.html" title="List of TableElement objects." alt="" coords="409,381,574,424"/>
+<area shape="poly" id="edge61_Node000001_Node000131" title=" " alt="" coords="361,382,409,389,408,394,360,387"/>
+<area shape="rect" id="Node000004" href="$class_direct_output_1_1_cab_1_1_out_1_1_output_controller_list.html" title="List of IOutputController objects." alt="" coords="669,557,860,600"/>
+<area shape="poly" id="edge50_Node000003_Node000004" title=" " alt="" coords="590,365,592,368,608,390,616,413,616,458,617,502,624,523,640,543,670,563,667,567,637,547,620,525,612,502,611,458,611,414,604,393,588,371,586,369"/>
+<area shape="rect" id="Node000006" href="$class_direct_output_1_1_cab_1_1_out_1_1_output_list.html" title="List of IOutput objects." alt="" coords="658,624,871,651"/>
+<area shape="poly" id="edge51_Node000003_Node000006" title=" " alt="" coords="590,365,592,368,612,399,620,431,620,462,615,493,611,523,611,552,619,581,640,610,660,624,657,628,636,614,615,584,606,553,605,523,610,492,614,462,615,432,608,401,588,371,587,369"/>
+<area shape="rect" id="Node000007" href="$class_direct_output_1_1_cab_1_1_overrides_1_1_table_override_settings.html" title=" " alt="" coords="671,123,858,165"/>
+<area shape="poly" id="edge52_Node000003_Node000007" title=" " alt="" coords="586,303,588,301,601,286,607,271,611,239,616,207,623,191,637,175,669,156,672,160,640,179,628,194,621,209,616,240,612,272,605,288,592,304,589,307"/>
+<area shape="rect" id="Node000008" href="$class_direct_output_1_1_cab_1_1_schedules_1_1_scheduled_settings.html" title=" " alt="" coords="668,189,861,232"/>
+<area shape="poly" id="edge53_Node000003_Node000008" title=" " alt="" coords="582,305,589,301,603,286,612,272,621,256,637,242,667,227,669,232,640,246,625,260,616,274,608,290,592,305,585,309"/>
+<area shape="rect" id="Node000009" href="$class_direct_output_1_1_cab_1_1_sequencer_1_1_sequential_output_settings.html" title=" " alt="" coords="668,256,861,299"/>
+<area shape="poly" id="edge54_Node000003_Node000009" title=" " alt="" coords="605,309,667,296,668,301,606,314"/>
+<area shape="rect" id="Node000010" href="$class_direct_output_1_1_cab_1_1_toys_1_1_toy_list.html" title="List of IToy objects." alt="" coords="664,323,865,349"/>
+<area shape="poly" id="edge55_Node000003_Node000010" title=" " alt="" coords="606,333,663,333,663,339,606,339"/>
+<area shape="rect" id="Node000011" href="$class_direct_output_1_1_f_x_1_1_effect_list.html" title="Collection of IEffect objects. Every object can only exist once in the list and every objects needs t..." alt="" coords="677,373,852,400"/>
+<area shape="poly" id="edge56_Node000003_Node000011" title=" " alt="" coords="606,355,689,370,688,375,605,360"/>
+<area shape="rect" id="Node000012" href="$class_direct_output_1_1_f_x_1_1_matrix_f_x_1_1_bitmap_shapes_1_1_shape_list.html" title=" " alt="" coords="676,424,853,467"/>
+<area shape="poly" id="edge57_Node000003_Node000012" title=" " alt="" coords="582,362,592,367,607,378,616,389,625,400,640,410,676,425,674,430,637,414,622,404,612,393,603,382,589,372,580,367"/>
+<area shape="rect" id="Node000129" href="$class_direct_output_1_1_general_1_1_bitmap_handling_1_1_fast_image_list.html" title=" " alt="" coords="670,5,859,48"/>
+<area shape="poly" id="edge58_Node000003_Node000129" title=" " alt="" coords="587,303,588,301,608,271,615,241,615,211,611,181,607,150,607,120,615,89,636,58,651,46,668,37,671,41,654,50,640,62,620,91,612,120,612,150,616,180,620,210,620,241,613,273,592,304,590,307"/>
+<area shape="rect" id="Node000013" href="$class_direct_output_1_1_general_1_1_color_1_1_color_list.html" title="List for Color objects." alt="" coords="673,491,856,533"/>
+<area shape="poly" id="edge59_Node000003_Node000013" title=" " alt="" coords="589,365,592,367,604,381,611,396,616,424,622,451,628,464,640,477,674,496,671,501,637,481,624,467,617,453,611,425,606,398,600,384,588,371,585,369"/>
+<area shape="rect" id="Node000130" href="$class_direct_output_1_1_general_1_1_curve_list.html" title=" " alt="" coords="662,72,867,99"/>
+<area shape="poly" id="edge60_Node000003_Node000130" title=" " alt="" coords="586,303,588,301,604,277,611,253,612,230,610,205,608,181,610,157,618,132,637,109,661,93,663,97,640,113,623,135,615,158,614,181,615,205,618,229,617,254,609,279,592,304,590,307"/>
+<area shape="rect" id="Node000132" title=" " alt="" coords="11,407,94,433"/>
+<area shape="poly" id="edge62_Node000132_Node000001" title=" " alt="" coords="108,403,161,389,163,394,110,408"/>
+<area shape="rect" id="Node000040" title=" " alt="" coords="719,3148,810,3175"/>
+<area shape="rect" id="Node000041" href="$class_direct_output_1_1_cab_1_1_out_1_1_f_t_d_i_chip_1_1_f_t_d_i.html" title="Class wrapper for FTD2XX.DLL." alt="" coords="958,3148,1201,3175"/>
+<area shape="poly" id="edge63_Node000040_Node000041" title=" " alt="" coords="825,3159,957,3159,957,3164,825,3164"/>
+<area shape="rect" id="Node000039" href="$class_direct_output_1_1_cab_1_1_out_1_1_l_w_1_1_led_wiz.html" title="The LedWiz is a easy to use outputcontroller with 32 outputs which all support 49 pwm levels with a P..." alt="" coords="992,3081,1166,3124"/>
+<area shape="poly" id="edge64_Node000040_Node000039" title=" " alt="" coords="824,3148,991,3116,992,3122,825,3153"/>
+<area shape="rect" id="Node000042" href="$class_direct_output_1_1_general_1_1_thread_info.html" title="This object provides information on a thread." alt="" coords="974,3199,1184,3225"/>
+<area shape="poly" id="edge65_Node000040_Node000042" title=" " alt="" coords="825,3168,993,3195,992,3201,824,3173"/>
+<area shape="rect" id="Node000133" title=" " alt="" coords="5,457,100,484"/>
+<area shape="poly" id="edge66_Node000133_Node000001" title=" " alt="" coords="92,447,202,389,205,394,95,452"/>
+<area shape="rect" id="Node000134" title=" " alt="" coords="5,1857,100,1884"/>
+<area shape="poly" id="edge68_Node000134_Node000001" title=" " alt="" coords="55,1842,240,391,245,391,60,1842"/>
+<area shape="rect" id="Node000135" href="$class_direct_output_1_1_cab_1_1_cabinet_output_list.html" title="Readonly list containing all IOutput objects of all IOutputController objects in a cabinet." alt="" coords="160,3064,332,3107"/>
+<area shape="poly" id="edge67_Node000134_Node000135" title=" " alt="" coords="57,1899,62,2139,77,2505,89,2691,105,2856,125,2982,137,3025,150,3050,162,3062,158,3066,146,3054,132,3026,120,2983,100,2857,84,2692,72,2505,57,2139,52,1899"/>
+<area shape="rect" id="Node000136" title=" " alt="" coords="29,255,76,281"/>
+<area shape="poly" id="edge69_Node000136_Node000001" title=" " alt="" coords="91,285,205,345,203,350,88,289"/>
+<area shape="rect" id="Node000137" title=" " alt="" coords="29,305,76,332"/>
+<area shape="poly" id="edge70_Node000137_Node000001" title=" " alt="" coords="91,326,163,345,162,350,90,331"/>
+<area shape="rect" id="Node000021" href="$interface_direct_output_1_1_general_1_1_generic_1_1_i_named_item.html" title="Interface for items which can be added the the NamedItemList." alt="" coords="148,2597,345,2640"/>
+<area shape="rect" id="Node000019" href="$interface_direct_output_1_1_cab_1_1_out_1_1_i_output.html" title="Common interface for outputs of any output controller. The Output class implements this interface and..." alt="" coords="394,2395,589,2421"/>
+<area shape="poly" id="edge71_Node000021_Node000019" title=" " alt="" coords="268,2583,320,2517,354,2482,391,2450,419,2433,448,2420,450,2424,422,2437,395,2454,358,2485,325,2520,273,2586"/>
+<area shape="rect" id="Node000022" href="$interface_direct_output_1_1_cab_1_1_out_1_1_i_output_controller.html" title="Common interface for all outputcontrollers. Only classes implementing this interface can be used as o..." alt="" coords="394,2597,589,2640"/>
+<area shape="poly" id="edge78_Node000021_Node000022" title=" " alt="" coords="360,2616,394,2616,394,2621,360,2621"/>
+<area shape="rect" id="Node000049" href="$class_direct_output_1_1_cab_1_1_overrides_1_1_table_override_setting.html" title=" " alt="" coords="398,2464,585,2507"/>
+<area shape="poly" id="edge112_Node000021_Node000049" title=" " alt="" coords="285,2585,335,2550,392,2516,418,2505,420,2510,394,2521,338,2554,288,2590"/>
+<area shape="rect" id="Node000050" href="$class_direct_output_1_1_cab_1_1_overrides_1_1_table_override_setting_device.html" title=" " alt="" coords="398,2531,585,2573"/>
+<area shape="poly" id="edge113_Node000021_Node000050" title=" " alt="" coords="341,2590,410,2571,411,2577,343,2595"/>
+<area shape="rect" id="Node000051" href="$class_direct_output_1_1_cab_1_1_schedules_1_1_scheduled_setting.html" title=" " alt="" coords="396,2664,588,2707"/>
+<area shape="poly" id="edge114_Node000021_Node000051" title=" " alt="" coords="343,2642,411,2661,410,2666,341,2647"/>
+<area shape="rect" id="Node000052" href="$class_direct_output_1_1_cab_1_1_schedules_1_1_scheduled_setting_device.html" title=" " alt="" coords="396,2731,588,2773"/>
+<area shape="poly" id="edge115_Node000021_Node000052" title=" " alt="" coords="288,2648,338,2683,394,2716,420,2728,418,2733,392,2721,335,2687,285,2652"/>
+<area shape="rect" id="Node000053" href="$class_direct_output_1_1_cab_1_1_sequencer_1_1_sequential_output_device.html" title=" " alt="" coords="395,2797,588,2840"/>
+<area shape="poly" id="edge116_Node000021_Node000053" title=" " alt="" coords="272,2651,323,2718,357,2753,394,2783,415,2794,412,2799,392,2788,353,2757,319,2722,267,2655"/>
+<area shape="rect" id="Node000054" href="$class_direct_output_1_1_cab_1_1_sequencer_1_1_sequential_output_setting.html" title=" " alt="" coords="395,2864,588,2907"/>
+<area shape="poly" id="edge117_Node000021_Node000054" title=" " alt="" coords="263,2653,283,2698,312,2751,349,2804,395,2850,412,2861,409,2866,391,2854,345,2807,307,2754,278,2700,258,2655"/>
+<area shape="rect" id="Node000055" href="$interface_direct_output_1_1_cab_1_1_toys_1_1_i_toy.html" title="Common interface for all toy implementations. &#160;The abstract class ToyBase implements this interface." alt="" coords="400,1063,584,1089"/>
+<area shape="poly" id="edge118_Node000021_Node000055" title=" " alt="" coords="251,2582,486,1089,491,1090,256,2583"/>
+<area shape="rect" id="Node000077" href="$interface_direct_output_1_1_f_x_1_1_i_effect.html" title="Common interface for all effects. &#160;If a new effect is implemented it is best to inherit from the abst..." alt="" coords="412,2035,571,2061"/>
+<area shape="poly" id="edge150_Node000021_Node000077" title=" " alt="" coords="258,2582,314,2435,391,2247,441,2139,481,2061,485,2063,446,2142,395,2249,319,2437,263,2584"/>
+<area shape="rect" id="Node000120" href="$class_direct_output_1_1_general_1_1_color_1_1_r_g_b_a_color_named.html" title="This class stores information on colors used for toys (e.g. RGBLed)." alt="" coords="400,2931,583,2973"/>
+<area shape="poly" id="edge196_Node000021_Node000120" title=" " alt="" coords="258,2654,275,2712,302,2782,341,2854,366,2887,395,2917,411,2928,408,2932,391,2921,362,2891,337,2857,297,2784,270,2713,253,2656"/>
+<area shape="rect" id="Node000122" href="$class_direct_output_1_1_general_1_1_color_1_1_r_g_b_color_named.html" title="Named RGBColor object." alt="" coords="400,2997,583,3040"/>
+<area shape="poly" id="edge197_Node000021_Node000122" title=" " alt="" coords="260,2654,285,2734,318,2832,357,2924,376,2959,395,2983,410,2995,406,2999,391,2987,372,2962,352,2926,313,2834,279,2736,255,2656"/>
+<area shape="rect" id="Node000015" href="$class_direct_output_1_1_general_1_1_generic_1_1_named_item_base.html" title="Abstract base class for named items. &#160;Implements the name property and the necessary events." alt="" coords="393,2260,590,2303"/>
+<area shape="poly" id="edge198_Node000021_Node000015" title=" " alt="" coords="264,2582,318,2489,391,2381,429,2337,465,2301,469,2305,433,2341,395,2384,322,2492,269,2585"/>
+<area shape="rect" id="Node000018" href="$class_direct_output_1_1_cab_1_1_out_1_1_d_m_x_1_1_d_m_x_output.html" title="IOutput implementation for DMX. &#160;Inherits from Output and adds the DmxChannel property." alt="" coords="986,2415,1172,2457"/>
+<area shape="poly" id="edge72_Node000019_Node000018" title=" " alt="" coords="605,2411,986,2429,985,2434,605,2416"/>
+<area shape="rect" id="Node000020" href="$class_direct_output_1_1_cab_1_1_out_1_1_l_w_1_1_led_wiz_output.html" title="Output class for LedWiz output controllers." alt="" coords="992,2348,1166,2391"/>
+<area shape="poly" id="edge73_Node000019_Node000020" title=" " alt="" coords="605,2398,992,2372,992,2378,605,2403"/>
+<area shape="rect" id="Node000016" href="$class_direct_output_1_1_cab_1_1_out_1_1_output.html" title="Basic IOutput implementation." alt="" coords="669,2327,860,2353"/>
+<area shape="poly" id="edge74_Node000019_Node000016" title=" " alt="" coords="562,2388,707,2351,709,2356,564,2393"/>
+<area shape="poly" id="edge76_Node000016_Node000018" title=" " alt="" coords="815,2357,939,2400,986,2413,985,2418,938,2405,814,2362"/>
+<area shape="poly" id="edge77_Node000016_Node000020" title=" " alt="" coords="876,2348,992,2359,992,2364,875,2353"/>
+<area shape="rect" id="Node000017" href="$class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_led_strip_output.html" title="A simple wrapper for the OutputNumbered class. This might be replaced with some more sophisticated so..." alt="" coords="971,2281,1188,2324"/>
+<area shape="poly" id="edge75_Node000016_Node000017" title=" " alt="" coords="875,2324,970,2313,971,2318,876,2330"/>
+<area shape="poly" id="edge94_Node000022_Node000039" title=" " alt="" coords="591,2649,593,2650,602,2667,609,2688,616,2740,613,2867,611,2933,613,2992,622,3041,629,3060,640,3074,664,3089,699,3099,742,3107,791,3111,896,3112,992,3107,992,3113,896,3117,791,3116,741,3112,698,3105,662,3094,637,3078,625,3063,616,3043,608,2993,606,2933,608,2867,611,2740,604,2689,597,2669,588,2654,587,2652"/>
+<area shape="rect" id="Node000023" href="$class_direct_output_1_1_cab_1_1_out_1_1_f_t_d_i_chip_1_1_f_t245_r_bitbang_controller.html" title="This is a generic output controller class which are based on the FT245R chip (http://www...." alt="" coords="973,2881,1186,2924"/>
+<area shape="poly" id="edge79_Node000022_Node000023" title=" " alt="" coords="590,2648,592,2650,611,2679,618,2708,617,2736,614,2764,610,2792,611,2818,620,2843,640,2867,678,2894,720,2913,765,2925,811,2932,858,2934,903,2932,985,2922,986,2927,904,2938,858,2939,811,2937,764,2930,718,2918,675,2898,637,2871,615,2846,606,2819,605,2791,608,2764,612,2736,612,2708,606,2681,588,2654,586,2652"/>
+<area shape="rect" id="Node000027" href="$interface_direct_output_1_1_cab_1_1_out_1_1_i_supports_set_values.html" title="This interface defines additional methods for output controllers which allow for direct modification ..." alt="" coords="660,2951,869,2993"/>
+<area shape="poly" id="edge80_Node000022_Node000027" title=" " alt="" coords="591,2649,592,2650,615,2687,623,2723,622,2758,617,2793,611,2827,610,2861,618,2896,640,2930,662,2948,659,2952,636,2934,613,2898,605,2862,606,2827,611,2792,617,2757,618,2723,610,2689,588,2654,587,2652"/>
+<area shape="rect" id="Node000028" href="$class_direct_output_1_1_cab_1_1_out_1_1_output_controller_complete_base.html" title="This abstract class implement the full base logic for a output controller with a separate thread for ..." alt="" coords="984,3015,1175,3057"/>
+<area shape="poly" id="edge106_Node000022_Node000028" title=" " alt="" coords="591,2649,592,2650,609,2674,619,2697,625,2720,627,2744,622,2789,611,2835,601,2879,599,2922,602,2942,610,2963,622,2983,640,3003,678,3032,721,3052,768,3064,816,3070,864,3071,911,3068,995,3055,995,3061,911,3074,864,3077,815,3075,766,3069,719,3057,676,3036,637,3007,618,2986,605,2965,597,2944,594,2922,596,2878,606,2833,617,2789,621,2744,620,2721,614,2699,604,2676,588,2654,587,2652"/>
+<area shape="rect" id="Node000043" href="$class_direct_output_1_1_cab_1_1_out_1_1_null_output_controller_1_1_null_output_controller.html" title="This is a dummy output controller not doing anthing with the data it receives. &#160;It is mainly thought ..." alt="" coords="960,2481,1198,2524"/>
+<area shape="poly" id="edge95_Node000022_Node000043" title=" " alt="" coords="572,2590,638,2572,806,2539,959,2515,960,2520,806,2544,639,2577,574,2595"/>
+<area shape="rect" id="Node000024" href="$class_direct_output_1_1_cab_1_1_out_1_1_output_controller_base.html" title="Abstract OutputController base class to be used for IOutputController implementations...." alt="" coords="669,2681,860,2724"/>
+<area shape="poly" id="edge96_Node000022_Node000024" title=" " alt="" coords="579,2643,693,2678,692,2683,577,2648"/>
+<area shape="rect" id="Node000044" href="$class_direct_output_1_1_cab_1_1_out_1_1_pac_1_1_pac_drive.html" title="The PacDrive is a simple output controller with 16 digital/on off outputs." alt="" coords="990,2548,1169,2591"/>
+<area shape="poly" id="edge107_Node000022_Node000044" title=" " alt="" coords="605,2604,638,2601,989,2573,989,2578,639,2607,605,2610"/>
+<area shape="rect" id="Node000045" href="$class_direct_output_1_1_cab_1_1_out_1_1_pac_1_1_pac_led64.html" title="The PacLed64 is a output controller with 64 outputs all supporting 256 pwm levels with a PWM frequenc..." alt="" coords="990,2681,1169,2724"/>
+<area shape="poly" id="edge108_Node000022_Node000045" title=" " alt="" coords="605,2629,891,2667,989,2683,989,2689,890,2672,604,2634"/>
+<area shape="rect" id="Node000046" href="$class_direct_output_1_1_cab_1_1_out_1_1_pac_1_1_pac_u_i_o.html" title="The Ultimate I/O is a output controller with 96 outputs all supporting 256 pwm levels with a PWM freq..." alt="" coords="990,2748,1169,2791"/>
+<area shape="poly" id="edge109_Node000022_Node000046" title=" " alt="" coords="587,2646,592,2650,609,2672,616,2695,622,2716,640,2734,681,2755,725,2771,771,2782,818,2788,909,2790,989,2783,989,2788,909,2795,818,2793,770,2787,724,2776,679,2760,637,2738,618,2718,611,2696,604,2675,588,2654,584,2651"/>
+<area shape="rect" id="Node000047" href="$class_direct_output_1_1_cab_1_1_out_1_1_pac_1_1_philips_hue_controller.html" title="The Philips Hue family consists of Zigbee controlled lights and sensors using a bridge (the Philips H..." alt="" coords="990,2815,1169,2857"/>
+<area shape="poly" id="edge110_Node000022_Node000047" title=" " alt="" coords="590,2648,592,2650,606,2669,613,2689,615,2728,618,2764,625,2781,640,2797,679,2822,722,2840,768,2852,815,2859,907,2861,989,2852,990,2857,908,2866,815,2865,767,2858,721,2845,677,2827,637,2801,621,2784,612,2765,610,2728,608,2690,602,2672,588,2654,586,2652"/>
+<area shape="rect" id="Node000048" href="$class_direct_output_1_1_cab_1_1_out_1_1_s_s_f_impact_controller_1_1_s_s_f_impact_controller.html" title="The SSFImpactor supports for using common audio bass shakers to emulate/simulate contractors/solenoid..." alt="" coords="970,2615,1188,2657"/>
+<area shape="poly" id="edge111_Node000022_Node000048" title=" " alt="" coords="605,2617,891,2623,970,2626,969,2632,891,2628,605,2622"/>
+<area shape="rect" id="Node000025" href="$class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_direct_strip_controller.html" title="This output controller class is used to control the direct strip controller by Swisslizard." alt="" coords="971,2948,1188,2991"/>
+<area shape="poly" id="edge81_Node000027_Node000025" title=" " alt="" coords="884,2968,970,2968,970,2973,884,2974"/>
+<area shape="poly" id="edge83_Node000027_Node000028" title=" " alt="" coords="884,2994,984,3014,983,3019,883,2999"/>
+<area shape="rect" id="Node000026" href="$class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_w_s2811_strip_controller.html" title="The WS2811StripController class is just a simple wrapper around the DirectStripController class...." alt="" coords="1284,2848,1501,2891"/>
+<area shape="poly" id="edge82_Node000025_Node000026" title=" " alt="" coords="1202,2941,1219,2934,1243,2917,1267,2900,1296,2889,1298,2894,1269,2905,1246,2922,1221,2938,1204,2946"/>
+<area shape="rect" id="Node000029" href="$class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_teensy_strip_controller.html" title="The TeensyStripController is used to control up to 8 WS2811/WS2812 based ledstrips with up to 1100 le..." alt="" coords="1284,2981,1501,3024"/>
+<area shape="poly" id="edge84_Node000028_Node000029" title=" " alt="" coords="1190,3022,1283,3012,1283,3017,1191,3027"/>
+<area shape="rect" id="Node000031" href="$class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_controller.html" title="The UMXController will do the bridge between DirectOutput and any UMXDevice. It&#39;ll automatically buil..." alt="" coords="1284,3048,1501,3091"/>
+<area shape="poly" id="edge86_Node000028_Node000031" title=" " alt="" coords="1191,3045,1283,3055,1283,3060,1190,3050"/>
+<area shape="rect" id="Node000032" href="$class_direct_output_1_1_cab_1_1_out_1_1_com_port_1_1_pin_control.html" title="PinControl is a Arduniobased output controller by http://www.vpforums.org/index.php?..." alt="" coords="1302,3115,1482,3157"/>
+<area shape="poly" id="edge87_Node000028_Node000032" title=" " alt="" coords="1191,3056,1221,3067,1246,3084,1269,3100,1303,3113,1301,3118,1267,3105,1243,3088,1219,3072,1189,3061"/>
+<area shape="rect" id="Node000033" href="$class_direct_output_1_1_cab_1_1_out_1_1_d_m_x_1_1_art_net.html" title="Artnet is a industry standard protocol used to control DMX lighting effects over ethernet...." alt="" coords="1299,3181,1485,3224"/>
+<area shape="poly" id="edge88_Node000028_Node000033" title=" " alt="" coords="1191,3049,1222,3067,1234,3080,1241,3093,1247,3119,1252,3144,1259,3156,1270,3167,1300,3185,1297,3189,1266,3171,1254,3159,1247,3146,1242,3120,1236,3095,1229,3083,1218,3071,1188,3054"/>
+<area shape="rect" id="Node000034" href="$class_direct_output_1_1_cab_1_1_out_1_1_output_controller_flex_complete_base.html" title=" " alt="" coords="1296,2915,1488,2957"/>
+<area shape="poly" id="edge89_Node000028_Node000034" title=" " alt="" coords="1189,3011,1219,3000,1243,2984,1267,2967,1296,2955,1298,2960,1269,2972,1246,2988,1221,3005,1191,3016"/>
+<area shape="rect" id="Node000030" href="$class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_wemos_d1_m_p_strip_controller.html" title="The WemosD1MPStripController is a Teensy equivalent board called Wemos D1 Mini Pro (also known as ESP..." alt="" coords="1575,3048,1812,3091"/>
+<area shape="poly" id="edge85_Node000029_Node000030" title=" " alt="" coords="1507,3025,1594,3045,1593,3050,1506,3031"/>
+<area shape="rect" id="Node000035" href="$class_direct_output_1_1_cab_1_1_out_1_1_dudes_cab_1_1_dudes_cab.html" title="The Dude&#39;s Cab Controller is a all&#45;in&#45;one virtual pinball controller." alt="" coords="1598,2781,1789,2824"/>
+<area shape="poly" id="edge90_Node000034_Node000035" title=" " alt="" coords="1501,2909,1515,2901,1530,2885,1538,2868,1546,2851,1563,2834,1597,2817,1599,2821,1566,2838,1551,2854,1543,2870,1534,2888,1518,2905,1503,2914"/>
+<area shape="rect" id="Node000036" href="$class_direct_output_1_1_cab_1_1_out_1_1_p_s_1_1_pinscape.html" title="The Pinscape Controller is an open&#45;source software/hardware project based on the inexpensive and powe..." alt="" coords="1606,2848,1781,2891"/>
+<area shape="poly" id="edge91_Node000034_Node000036" title=" " alt="" coords="1503,2909,1606,2886,1607,2891,1504,2914"/>
+<area shape="rect" id="Node000037" href="$class_direct_output_1_1_cab_1_1_out_1_1_p_s_pico_1_1_pinscape_pico.html" title="The Pinscape Pico controller is an open&#45;source software/hardware project based on the Raspberry Pi Pi..." alt="" coords="1593,2915,1794,2957"/>
+<area shape="poly" id="edge92_Node000034_Node000037" title=" " alt="" coords="1503,2933,1593,2933,1593,2939,1503,2939"/>
+<area shape="rect" id="Node000038" href="$class_direct_output_1_1_cab_1_1_out_1_1_pin_one_1_1_pin_one.html" title="The PinOne Controller is a free for non commercial use software/hardware project based on the inexpen..." alt="" coords="1608,2981,1779,3024"/>
+<area shape="poly" id="edge93_Node000034_Node000038" title=" " alt="" coords="1504,2958,1608,2981,1607,2986,1502,2963"/>
+<area shape="poly" id="edge99_Node000024_Node000039" title=" " alt="" coords="788,2736,838,2826,893,2938,905,2977,909,3009,918,3038,926,3053,940,3067,965,3083,993,3093,991,3098,962,3088,937,3071,922,3056,913,3041,904,3010,900,2978,888,2940,833,2829,784,2738"/>
+<area shape="poly" id="edge98_Node000024_Node000023" title=" " alt="" coords="875,2727,893,2741,906,2757,913,2774,917,2806,921,2838,928,2853,940,2867,973,2887,971,2891,937,2871,923,2856,916,2839,911,2807,908,2775,901,2760,889,2745,872,2732"/>
+<area shape="poly" id="edge97_Node000024_Node000025" title=" " alt="" coords="876,2727,893,2741,910,2766,917,2791,919,2816,916,2840,914,2865,916,2888,923,2911,940,2934,971,2954,969,2959,937,2938,919,2914,911,2889,909,2864,911,2840,913,2816,912,2792,905,2768,889,2744,872,2731"/>
+<area shape="poly" id="edge100_Node000024_Node000043" title=" " alt="" coords="789,2667,852,2599,892,2563,937,2534,963,2522,965,2527,940,2538,896,2568,855,2603,793,2671"/>
+<area shape="poly" id="edge101_Node000024_Node000044" title=" " alt="" coords="808,2670,868,2634,938,2600,988,2584,990,2589,940,2605,871,2639,811,2675"/>
+<area shape="poly" id="edge102_Node000024_Node000045" title=" " alt="" coords="876,2700,989,2700,989,2705,876,2705"/>
+<area shape="poly" id="edge103_Node000024_Node000046" title=" " alt="" coords="876,2723,990,2748,989,2753,875,2729"/>
+<area shape="poly" id="edge104_Node000024_Node000047" title=" " alt="" coords="871,2728,892,2741,908,2756,917,2772,925,2787,940,2800,964,2813,990,2822,988,2827,962,2818,937,2805,921,2790,912,2774,904,2759,889,2745,868,2733"/>
+<area shape="poly" id="edge105_Node000024_Node000048" title=" " alt="" coords="875,2677,975,2655,976,2661,876,2682"/>
+<area shape="rect" id="Node000056" href="$class_direct_output_1_1_cab_1_1_toys_1_1_hardware_1_1_led_strip.html" title="Represents a adressable led strip." alt="" coords="1282,757,1502,800"/>
+<area shape="poly" id="edge119_Node000055_Node000056" title=" " alt="" coords="496,1047,511,992,538,925,557,890,579,857,606,827,637,802,687,780,756,765,839,757,930,753,1119,756,1282,766,1282,772,1119,762,930,758,839,762,757,771,689,785,640,806,610,831,584,860,561,892,543,927,516,994,501,1048"/>
+<area shape="rect" id="Node000057" href="$interface_direct_output_1_1_cab_1_1_toys_1_1_i_matrix_toy-1-g.html" title="Interface for toys having a matrix of elements (e.g. ledstrips)" alt="" coords="980,792,1179,835"/>
+<area shape="poly" id="edge120_Node000055_Node000057" title=" " alt="" coords="499,1047,517,1002,546,947,586,893,610,869,637,850,678,829,721,814,766,803,812,796,901,792,979,796,979,801,901,797,812,801,767,808,723,819,680,834,640,854,613,874,590,897,550,950,522,1004,504,1049"/>
+<area shape="rect" id="Node000058" href="$class_direct_output_1_1_cab_1_1_toys_1_1_virtual_1_1_toy_group_base-1-g.html" title="This toys allows the grouping of several toys into a matrix, which can be controlled by matrix effect..." alt="" coords="1270,824,1514,867"/>
+<area shape="poly" id="edge149_Node000055_Node000058" title=" " alt="" coords="503,1048,524,1011,553,968,591,926,637,894,672,883,732,875,900,861,1270,846,1270,851,900,866,732,880,674,889,639,898,595,930,557,971,528,1014,508,1050"/>
+<area shape="rect" id="Node000073" href="$interface_direct_output_1_1_cab_1_1_toys_1_1_i_r_g_b_output_toy.html" title="Common interface for RGB toys supporting several layers of color with alpha value." alt="" coords="638,1260,891,1287"/>
+<area shape="poly" id="edge125_Node000055_Node000073" title=" " alt="" coords="510,1102,531,1135,561,1175,597,1214,640,1246,665,1257,662,1262,637,1250,594,1218,557,1178,527,1138,506,1104"/>
+<area shape="rect" id="Node000067" href="$interface_direct_output_1_1_cab_1_1_toys_1_1_i_single_output_toy.html" title=" " alt="" coords="665,1025,864,1068"/>
+<area shape="poly" id="edge128_Node000055_Node000067" title=" " alt="" coords="599,1062,664,1055,665,1060,599,1067"/>
+<area shape="rect" id="Node000074" href="$interface_direct_output_1_1_cab_1_1_toys_1_1_i_toy_updatable.html" title="Interface for toys which need a update method which is used to update their outputs." alt="" coords="672,908,857,951"/>
+<area shape="poly" id="edge134_Node000055_Node000074" title=" " alt="" coords="516,1050,569,1004,602,981,637,960,671,947,673,951,640,965,605,985,572,1009,519,1054"/>
+<area shape="rect" id="Node000076" href="$class_direct_output_1_1_cab_1_1_toys_1_1_l_w_equivalent_1_1_led_wiz_equivalent.html" title="The LEDWizEquivalent toy is only used by the framework when ini files are used for the configuration ..." alt="" coords="958,1069,1201,1112"/>
+<area shape="poly" id="edge140_Node000055_Node000076" title=" " alt="" coords="600,1076,638,1077,957,1085,957,1091,638,1083,600,1082"/>
+<area shape="rect" id="Node000069" href="$interface_direct_output_1_1_cab_1_1_toys_1_1_layer_1_1_i_layer_toy-1-g.html" title=" " alt="" coords="659,1193,870,1236"/>
+<area shape="poly" id="edge141_Node000055_Node000069" title=" " alt="" coords="521,1098,574,1139,640,1179,667,1190,665,1195,637,1184,571,1144,518,1102"/>
+<area shape="rect" id="Node000075" href="$class_direct_output_1_1_cab_1_1_toys_1_1_toy_base.html" title="Base class for IToy implementations." alt="" coords="659,1143,870,1169"/>
+<area shape="poly" id="edge146_Node000055_Node000075" title=" " alt="" coords="548,1092,639,1121,706,1140,705,1145,638,1127,546,1097"/>
+<area shape="poly" id="edge121_Node000057_Node000056" title=" " alt="" coords="1195,798,1282,788,1282,793,1195,803"/>
+<area shape="poly" id="edge122_Node000057_Node000058" title=" " alt="" coords="1195,822,1270,830,1270,836,1194,828"/>
+<area shape="rect" id="Node000059" href="$class_direct_output_1_1_cab_1_1_toys_1_1_virtual_1_1_analog_alpha_toy_group.html" title="This toys allows the grouping of several AnalogAlpha toys (e.g. AnalogAlphaToy or DirectOutput...." alt="" coords="1593,731,1794,773"/>
+<area shape="poly" id="edge123_Node000058_Node000059" title=" " alt="" coords="1498,816,1515,810,1539,796,1563,783,1596,771,1598,776,1565,788,1542,801,1517,814,1499,821"/>
+<area shape="rect" id="Node000060" href="$class_direct_output_1_1_cab_1_1_toys_1_1_virtual_1_1_r_g_b_a_toy_group.html" title="This toys allows the grouping of several RGBA toys (e.g. RGBAToy or DirectOutput.Cab...." alt="" coords="1593,797,1794,840"/>
+<area shape="poly" id="edge124_Node000058_Node000060" title=" " alt="" coords="1529,831,1593,825,1593,830,1529,836"/>
+<area shape="rect" id="Node000071" href="$class_direct_output_1_1_cab_1_1_toys_1_1_layer_1_1_r_g_b_a_toy.html" title="Thie RGBAToy controls RGB leds and other gadgets displaying RGB colors. &#160;&#160;The RGBAToy has multilayer ..." alt="" coords="1294,1060,1490,1103"/>
+<area shape="poly" id="edge126_Node000073_Node000071" title=" " alt="" coords="904,1285,979,1286,1060,1281,1141,1266,1219,1239,1234,1229,1244,1219,1266,1192,1364,1101,1368,1105,1270,1195,1248,1222,1238,1234,1221,1244,1143,1271,1060,1286,979,1292,904,1291"/>
+<area shape="rect" id="Node000072" href="$class_direct_output_1_1_cab_1_1_toys_1_1_hardware_1_1_r_g_b_led.html" title="Toy controlling a RGB led. &#160;This is just a simple wrapper around the RGBAToy." alt="" coords="1584,981,1803,1024"/>
+<area shape="poly" id="edge127_Node000071_Node000072" title=" " alt="" coords="1490,1053,1564,1033,1607,1022,1609,1027,1565,1039,1491,1058"/>
+<area shape="rect" id="Node000062" href="$class_direct_output_1_1_cab_1_1_toys_1_1_layer_1_1_analog_alpha_toy.html" title="This toy handles analog values (0&#45;255) in a layer structure including alpha value (0=completely trans..." alt="" coords="1294,915,1490,957"/>
+<area shape="poly" id="edge129_Node000067_Node000062" title=" " alt="" coords="879,1024,1294,950,1295,956,880,1029"/>
+<area shape="rect" id="Node000063" href="$class_direct_output_1_1_cab_1_1_toys_1_1_hardware_1_1_lamp.html" title="Lamp toy. &#160;Just a simple wrapper for the AnalogAlphaToy." alt="" coords="1568,864,1819,891"/>
+<area shape="poly" id="edge130_Node000062_Node000063" title=" " alt="" coords="1505,911,1621,889,1622,894,1506,917"/>
+<area shape="rect" id="Node000064" href="$class_direct_output_1_1_cab_1_1_toys_1_1_hardware_1_1_motor.html" title="Motor toy supporting max. and min. power, max. runtime and kickstart settings. &#160;The settings of this ..." alt="" coords="1584,915,1803,957"/>
+<area shape="poly" id="edge131_Node000062_Node000064" title=" " alt="" coords="1506,933,1583,933,1583,939,1506,939"/>
+<area shape="rect" id="Node000065" href="$class_direct_output_1_1_cab_1_1_toys_1_1_hardware_1_1_gear_motor.html" title="GearMotor toy supporting max. and min. power, max. runtime and kickstart settings...." alt="" coords="1871,881,2090,924"/>
+<area shape="poly" id="edge132_Node000064_Node000065" title=" " alt="" coords="1818,919,1870,913,1871,918,1819,924"/>
+<area shape="rect" id="Node000066" href="$class_direct_output_1_1_cab_1_1_toys_1_1_hardware_1_1_shaker.html" title="Shaker toy with settings for minimum and maximum power, fading curves, max runtime and kickstart." alt="" coords="1871,948,2090,991"/>
+<area shape="poly" id="edge133_Node000064_Node000066" title=" " alt="" coords="1819,948,1871,954,1870,959,1818,953"/>
+<area shape="rect" id="Node000061" href="$class_direct_output_1_1_cab_1_1_toys_1_1_toy_base_updatable.html" title="Base class for toys which need update calls to update the state of their assigned outputs...." alt="" coords="989,911,1170,953"/>
+<area shape="poly" id="edge135_Node000074_Node000061" title=" " alt="" coords="872,928,989,929,989,934,872,933"/>
+<area shape="poly" id="edge136_Node000061_Node000056" title=" " alt="" coords="1129,900,1218,844,1242,826,1267,810,1295,798,1297,803,1269,814,1245,830,1222,849,1132,905"/>
+<area shape="poly" id="edge139_Node000061_Node000058" title=" " alt="" coords="1173,903,1312,865,1313,870,1175,908"/>
+<area shape="poly" id="edge138_Node000061_Node000071" title=" " alt="" coords="1141,958,1346,1057,1344,1062,1138,963"/>
+<area shape="poly" id="edge137_Node000061_Node000062" title=" " alt="" coords="1185,931,1294,932,1294,937,1185,936"/>
+<area shape="rect" id="Node000068" href="$interface_direct_output_1_1_cab_1_1_toys_1_1_i_analog_alpha_toy.html" title="Common interface for toys supporting analog alpha layers." alt="" coords="978,1136,1181,1179"/>
+<area shape="poly" id="edge142_Node000069_Node000068" title=" " alt="" coords="885,1190,977,1173,978,1178,885,1195"/>
+<area shape="rect" id="Node000070" href="$interface_direct_output_1_1_cab_1_1_toys_1_1_i_r_g_b_a_toy.html" title="Common interface for RGB toys supporting several layers of color with alpha value." alt="" coords="969,1203,1190,1229"/>
+<area shape="poly" id="edge144_Node000069_Node000070" title=" " alt="" coords="885,1213,968,1213,968,1218,885,1218"/>
+<area shape="poly" id="edge143_Node000068_Node000062" title=" " alt="" coords="1194,1135,1218,1122,1235,1105,1244,1088,1252,1068,1266,1046,1315,996,1361,956,1365,960,1318,1000,1270,1050,1257,1071,1249,1090,1240,1108,1222,1126,1197,1140"/>
+<area shape="poly" id="edge145_Node000070_Node000071" title=" " alt="" coords="1197,1196,1219,1188,1260,1169,1299,1146,1363,1101,1366,1105,1302,1150,1263,1174,1221,1193,1199,1201"/>
+<area shape="poly" id="edge148_Node000075_Node000061" title=" " alt="" coords="802,1132,889,1078,979,1010,1051,952,1054,956,983,1014,892,1082,805,1137"/>
+<area shape="poly" id="edge147_Node000075_Node000076" title=" " alt="" coords="847,1136,973,1110,974,1115,848,1142"/>
+<area shape="rect" id="Node000078" href="$class_direct_output_1_1_f_x_1_1_effect_base.html" title="Abstract base class for IEffect objects. &#160;This class inherits NamedItemBase and implements IEffect." alt="" coords="672,2035,857,2061"/>
+<area shape="poly" id="edge151_Node000077_Node000078" title=" " alt="" coords="586,2045,672,2045,672,2051,586,2051"/>
+<area shape="rect" id="Node000103" href="$interface_direct_output_1_1_f_x_1_1_matrix_f_x_1_1_i_matrix_effect.html" title=" " alt="" coords="676,1632,853,1675"/>
+<area shape="poly" id="edge191_Node000077_Node000103" title=" " alt="" coords="509,2021,746,1674,751,1677,513,2024"/>
+<area shape="rect" id="Node000079" href="$class_direct_output_1_1_f_x_1_1_analog_toy_f_x_1_1_analog_toy_effect_base.html" title="Base class for effects controlling a single AnalogToy object." alt="" coords="989,2027,1170,2069"/>
+<area shape="poly" id="edge152_Node000078_Node000079" title=" " alt="" coords="872,2045,988,2045,988,2051,872,2051"/>
+<area shape="rect" id="Node000081" href="$class_direct_output_1_1_f_x_1_1_effect_effect_base.html" title="Base class for effects targeting another effect." alt="" coords="970,2097,1188,2124"/>
+<area shape="poly" id="edge154_Node000078_Node000081" title=" " alt="" coords="851,2062,1009,2094,1008,2099,850,2068"/>
+<area shape="rect" id="Node000092" href="$class_direct_output_1_1_f_x_1_1_list_f_x_1_1_list_effect.html" title="This effect triggers a list of other effect when it is triggered." alt="" coords="988,2148,1171,2191"/>
+<area shape="poly" id="edge165_Node000078_Node000092" title=" " alt="" coords="803,2067,866,2101,940,2134,988,2148,986,2153,938,2138,863,2106,800,2072"/>
+<area shape="rect" id="Node000093" href="$class_direct_output_1_1_f_x_1_1_matrix_f_x_1_1_matrix_effect_base-1-g.html" title="Base class for effects targeting a matrix of toys (e.g. addressable ledstrip)" alt="" coords="971,1624,1188,1683"/>
+<area shape="poly" id="edge166_Node000078_Node000093" title=" " alt="" coords="784,2021,1052,1681,1057,1685,788,2024"/>
+<area shape="rect" id="Node000117" href="$class_direct_output_1_1_f_x_1_1_null_f_x_1_1_null_effect.html" title="The NullEffect is a empty effect no doing anything." alt="" coords="986,1909,1173,1952"/>
+<area shape="poly" id="edge188_Node000078_Node000117" title=" " alt="" coords="802,2024,865,1992,938,1961,985,1947,986,1952,940,1967,867,1997,805,2029"/>
+<area shape="rect" id="Node000118" href="$class_direct_output_1_1_f_x_1_1_r_g_b_a_f_x_1_1_r_g_b_a_effect_base.html" title="Base class for effects using RGBA toys." alt="" coords="939,1976,1220,2003"/>
+<area shape="poly" id="edge189_Node000078_Node000118" title=" " alt="" coords="852,2029,938,2012,1000,2001,1001,2006,939,2017,853,2034"/>
+<area shape="rect" id="Node000080" href="$class_direct_output_1_1_f_x_1_1_analog_toy_f_x_1_1_analog_toy_value_effect.html" title="This effect controlls sets the value and alpha channel of a analog alpha toy based on the trigger val..." alt="" coords="1302,1989,1483,2032"/>
+<area shape="poly" id="edge153_Node000079_Node000080" title=" " alt="" coords="1185,2033,1301,2019,1302,2024,1185,2038"/>
+<area shape="rect" id="Node000082" href="$class_direct_output_1_1_f_x_1_1_condition_f_x_1_1_table_element_condition_effect.html" title="This effect evaluates the condition specified in the Condition property." alt="" coords="1287,2123,1497,2165"/>
+<area shape="poly" id="edge155_Node000081_Node000082" title=" " alt="" coords="1204,2121,1287,2130,1286,2135,1204,2127"/>
+<area shape="rect" id="Node000083" href="$class_direct_output_1_1_f_x_1_1_timmed_f_x_1_1_blink_effect.html" title="Blink effect which triggers a TargetEffect at specified intervalls with active (org value of TableEle..." alt="" coords="1298,2189,1486,2232"/>
+<area shape="poly" id="edge156_Node000081_Node000083" title=" " alt="" coords="1204,2127,1221,2134,1236,2144,1246,2154,1255,2165,1269,2175,1299,2188,1297,2193,1267,2180,1252,2169,1242,2158,1233,2148,1219,2138,1202,2132"/>
+<area shape="rect" id="Node000084" href="$class_direct_output_1_1_f_x_1_1_timmed_f_x_1_1_delay_effect.html" title="The effect fires a assigned target effect after a specified delay. &#160;The original values supplied when..." alt="" coords="1298,2256,1486,2299"/>
+<area shape="poly" id="edge157_Node000081_Node000084" title=" " alt="" coords="1204,2123,1222,2134,1234,2147,1242,2161,1247,2189,1252,2216,1258,2229,1270,2242,1299,2260,1296,2264,1266,2246,1254,2232,1247,2218,1242,2190,1237,2163,1230,2150,1218,2138,1201,2127"/>
+<area shape="rect" id="Node000085" href="$class_direct_output_1_1_f_x_1_1_timmed_f_x_1_1_duration_effect.html" title="Duration effect which triggers a specified target effect for a specified duration...." alt="" coords="1298,2323,1486,2365"/>
+<area shape="poly" id="edge158_Node000081_Node000085" title=" " alt="" coords="1204,2121,1222,2134,1239,2155,1247,2178,1249,2200,1248,2222,1247,2267,1254,2288,1270,2309,1299,2328,1296,2332,1266,2313,1250,2290,1242,2267,1242,2222,1244,2200,1242,2179,1234,2158,1218,2138,1201,2126"/>
+<area shape="rect" id="Node000086" href="$class_direct_output_1_1_f_x_1_1_timmed_f_x_1_1_extend_duration_effect.html" title="The extend duration effect triggers another effect for a duration which is extebnded by the number of..." alt="" coords="1298,2389,1486,2432"/>
+<area shape="poly" id="edge159_Node000081_Node000086" title=" " alt="" coords="1204,2121,1222,2134,1244,2164,1253,2194,1252,2225,1248,2256,1243,2286,1243,2316,1250,2346,1270,2376,1283,2387,1299,2395,1297,2400,1280,2391,1266,2379,1245,2348,1237,2317,1238,2286,1243,2255,1247,2225,1247,2195,1239,2166,1218,2138,1201,2125"/>
+<area shape="rect" id="Node000087" href="$class_direct_output_1_1_f_x_1_1_timmed_f_x_1_1_fade_effect.html" title="This effect fades towards the value passed to the effect in the TableElementData of the trigger metho..." alt="" coords="1298,2456,1486,2499"/>
+<area shape="poly" id="edge160_Node000081_Node000087" title=" " alt="" coords="1204,2121,1222,2134,1238,2153,1249,2173,1258,2211,1256,2250,1248,2289,1240,2328,1238,2366,1246,2404,1256,2423,1270,2442,1283,2454,1299,2462,1296,2467,1280,2458,1266,2446,1251,2426,1241,2406,1232,2366,1235,2327,1243,2288,1251,2249,1253,2212,1244,2174,1233,2156,1218,2138,1201,2125"/>
+<area shape="rect" id="Node000088" href="$class_direct_output_1_1_f_x_1_1_timmed_f_x_1_1_max_duration_effect.html" title="Limits the max duration of the effect to the specified number of milliseconds." alt="" coords="1298,2523,1486,2565"/>
+<area shape="poly" id="edge161_Node000081_Node000088" title=" " alt="" coords="1204,2120,1222,2134,1241,2157,1253,2181,1260,2204,1263,2228,1260,2275,1249,2322,1237,2369,1233,2416,1235,2439,1242,2462,1253,2486,1270,2509,1283,2521,1299,2529,1296,2534,1280,2525,1266,2512,1248,2488,1237,2464,1230,2440,1228,2416,1232,2368,1243,2321,1254,2274,1258,2228,1255,2206,1248,2183,1236,2160,1218,2138,1201,2125"/>
+<area shape="rect" id="Node000089" href="$class_direct_output_1_1_f_x_1_1_timmed_f_x_1_1_min_duration_effect.html" title="This effect enforces a minimum duration on the effect calls. &#160;Calls which are setting a effect to act..." alt="" coords="1298,2589,1486,2632"/>
+<area shape="poly" id="edge162_Node000081_Node000089" title=" " alt="" coords="1204,2120,1222,2134,1244,2162,1258,2189,1266,2217,1269,2245,1263,2300,1249,2355,1235,2410,1228,2465,1230,2493,1237,2520,1250,2548,1270,2576,1283,2587,1299,2596,1296,2601,1280,2592,1266,2579,1246,2551,1232,2522,1225,2494,1223,2465,1229,2409,1244,2354,1258,2299,1264,2245,1261,2218,1253,2191,1239,2165,1218,2138,1201,2124"/>
+<area shape="rect" id="Node000090" href="$class_direct_output_1_1_f_x_1_1_value_f_x_1_1_value_invert_effect.html" title="Inverts the trigger value of the effect before the target effect is called (e.g. 0 becomes 255,..." alt="" coords="1306,2656,1479,2699"/>
+<area shape="poly" id="edge163_Node000081_Node000090" title=" " alt="" coords="1204,2120,1222,2134,1235,2153,1244,2178,1252,2238,1252,2311,1248,2389,1244,2467,1243,2540,1251,2600,1259,2624,1270,2642,1286,2656,1306,2666,1304,2671,1283,2661,1266,2646,1254,2626,1246,2601,1238,2540,1238,2467,1243,2389,1247,2311,1247,2239,1238,2179,1230,2156,1218,2138,1201,2124"/>
+<area shape="rect" id="Node000091" href="$class_direct_output_1_1_f_x_1_1_value_f_x_1_1_value_map_full_range_effect.html" title="This effects maps the trigger value to the full range of 0 &#45; 255. If the trigger value is 0,..." alt="" coords="1306,2056,1479,2099"/>
+<area shape="poly" id="edge164_Node000081_Node000091" title=" " alt="" coords="1204,2095,1305,2084,1305,2089,1204,2100"/>
+<area shape="rect" id="Node000094" href="$class_direct_output_1_1_f_x_1_1_matrix_f_x_1_1_matrix_bitmap_animation_effect_base-1-g.html" title=" " alt="" coords="1282,1205,1502,1264"/>
+<area shape="poly" id="edge167_Node000093_Node000094" title=" " alt="" coords="1105,1609,1266,1350,1310,1303,1353,1262,1357,1266,1314,1306,1270,1354,1109,1612"/>
+<area shape="rect" id="Node000099" href="$class_direct_output_1_1_f_x_1_1_matrix_f_x_1_1_matrix_bitmap_effect_base-1-g.html" title="Outputs a defined part of a bitmap on a area of a matrix." alt="" coords="1304,1364,1481,1423"/>
+<area shape="poly" id="edge171_Node000093_Node000099" title=" " alt="" coords="1108,1610,1175,1528,1219,1484,1266,1444,1308,1421,1310,1425,1270,1449,1222,1488,1179,1531,1112,1613"/>
+<area shape="rect" id="Node000104" href="$class_direct_output_1_1_f_x_1_1_matrix_f_x_1_1_matrix_flicker_effect_base-1-g.html" title="Does create random flickering with a defineable density, durations and value within the spefied area ..." alt="" coords="1304,1459,1481,1517"/>
+<area shape="poly" id="edge175_Node000093_Node000104" title=" " alt="" coords="1130,1612,1194,1569,1267,1527,1302,1512,1304,1517,1269,1532,1196,1573,1133,1617"/>
+<area shape="rect" id="Node000107" href="$class_direct_output_1_1_f_x_1_1_matrix_f_x_1_1_matrix_plasma_effect_base-1-g.html" title=" " alt="" coords="1304,1541,1481,1600"/>
+<area shape="poly" id="edge178_Node000093_Node000107" title=" " alt="" coords="1202,1618,1302,1592,1304,1597,1204,1623"/>
+<area shape="rect" id="Node000109" href="$class_direct_output_1_1_f_x_1_1_matrix_f_x_1_1_matrix_shift_effect_base-1-g.html" title="Base class for effects shift values through a matrix of elements." alt="" coords="1304,1624,1481,1683"/>
+<area shape="poly" id="edge180_Node000093_Node000109" title=" " alt="" coords="1203,1651,1303,1651,1303,1656,1203,1656"/>
+<area shape="rect" id="Node000112" href="$class_direct_output_1_1_f_x_1_1_matrix_f_x_1_1_matrix_value_effect_base-1-g.html" title="Base class for effects setting all elements a specified area of a matrix toy to the same specific val..." alt="" coords="1304,1707,1481,1765"/>
+<area shape="poly" id="edge183_Node000093_Node000112" title=" " alt="" coords="1204,1683,1304,1710,1302,1715,1202,1688"/>
+<area shape="rect" id="Node000115" href="$class_direct_output_1_1_f_x_1_1_matrix_f_x_1_1_r_g_b_a_matrix_color_scale_shape_effect.html" title="Displays a shape on a RGBA matrix (typically a ledstrip array). The color of the displayed shape is c..." alt="" coords="1277,1789,1507,1832"/>
+<area shape="poly" id="edge186_Node000093_Node000115" title=" " alt="" coords="1132,1690,1195,1734,1269,1775,1299,1786,1297,1791,1267,1780,1193,1739,1129,1695"/>
+<area shape="rect" id="Node000116" href="$class_direct_output_1_1_f_x_1_1_matrix_f_x_1_1_r_g_b_a_matrix_shape_effect.html" title="Displays a shape on a RGBA matrix (typically a ledstrip matrix). The color of the displayed shape is ..." alt="" coords="1304,1856,1481,1899"/>
+<area shape="poly" id="edge187_Node000093_Node000116" title=" " alt="" coords="1113,1694,1180,1770,1222,1809,1269,1842,1304,1857,1302,1862,1267,1846,1219,1813,1176,1774,1109,1697"/>
+<area shape="rect" id="Node000095" href="$class_direct_output_1_1_f_x_1_1_matrix_f_x_1_1_analog_alpha_matrix_bitmap_animation_effect.html" title="Displays parts of a bitmap as a animation on a matrix of AnalogAlpha elements. Check the docu on the ..." alt="" coords="1579,1131,1808,1189"/>
+<area shape="poly" id="edge168_Node000094_Node000095" title=" " alt="" coords="1517,1201,1578,1186,1579,1191,1518,1206"/>
+<area shape="rect" id="Node000096" href="$class_direct_output_1_1_f_x_1_1_matrix_f_x_1_1_r_g_b_a_matrix_bitmap_animation_effect.html" title="The RGBAMatrixBitmapAnimationEffect displays a anmation which is based on a image file on the definea..." alt="" coords="1579,1213,1808,1256"/>
+<area shape="poly" id="edge169_Node000094_Node000096" title=" " alt="" coords="1518,1232,1579,1232,1579,1237,1518,1237"/>
+<area shape="rect" id="Node000097" href="$class_direct_output_1_1_f_x_1_1_matrix_f_x_1_1_r_g_b_a_matrix_color_scale_bitmap_animation_effect.html" title="This displays a defined part of a bitmap as a animation in the given colors on a area of a RGBAtoy Ma..." alt="" coords="1564,1048,1823,1107"/>
+<area shape="poly" id="edge170_Node000094_Node000097" title=" " alt="" coords="1441,1194,1498,1154,1563,1116,1590,1105,1592,1110,1566,1121,1501,1158,1444,1198"/>
+<area shape="rect" id="Node000100" href="$class_direct_output_1_1_f_x_1_1_matrix_f_x_1_1_analog_alpha_matrix_bitmap_effect.html" title="Displays a defined part of a bitmap on a area of a AnalogAlpha Matrix." alt="" coords="1591,1347,1796,1389"/>
+<area shape="poly" id="edge172_Node000099_Node000100" title=" " alt="" coords="1496,1382,1590,1374,1591,1379,1497,1387"/>
+<area shape="rect" id="Node000101" href="$class_direct_output_1_1_f_x_1_1_matrix_f_x_1_1_r_g_b_a_matrix_bitmap_effect.html" title="The RGBAMatrixBitmapEffect displays a defined part of a bitmap on a area of a RGBAtoy Matrix." alt="" coords="1605,1413,1782,1456"/>
+<area shape="poly" id="edge173_Node000099_Node000101" title=" " alt="" coords="1497,1405,1605,1420,1604,1425,1496,1410"/>
+<area shape="rect" id="Node000102" href="$class_direct_output_1_1_f_x_1_1_matrix_f_x_1_1_r_g_b_a_matrix_color_scale_bitmap_effect.html" title="The RGBAMatrixBitmapEffect displays a defined part of a bitmap in the given colors on a area of a RGB..." alt="" coords="1576,1280,1811,1323"/>
+<area shape="poly" id="edge174_Node000099_Node000102" title=" " alt="" coords="1490,1356,1564,1332,1604,1321,1605,1326,1565,1337,1492,1361"/>
+<area shape="rect" id="Node000105" href="$class_direct_output_1_1_f_x_1_1_matrix_f_x_1_1_analog_alpha_matrix_flicker_effect.html" title="Does create random flickering with a defineable density, durations and value within the spefied area ..." alt="" coords="1592,1480,1795,1523"/>
+<area shape="poly" id="edge176_Node000104_Node000105" title=" " alt="" coords="1497,1490,1592,1494,1592,1500,1497,1495"/>
+<area shape="rect" id="Node000106" href="$class_direct_output_1_1_f_x_1_1_matrix_f_x_1_1_r_g_b_a_matrix_flicker_effect.html" title="Does create random flickering with a defineable density, durations and color within the spefied area ..." alt="" coords="1605,1547,1782,1589"/>
+<area shape="poly" id="edge177_Node000104_Node000106" title=" " alt="" coords="1497,1514,1565,1532,1608,1544,1607,1549,1564,1537,1495,1519"/>
+<area shape="rect" id="Node000108" href="$class_direct_output_1_1_f_x_1_1_matrix_f_x_1_1_r_g_b_a_matrix_plasma_effect.html" title="Displayes a classical plasma effect on a RGBA matrix/ledstrip array. For more details on the math of ..." alt="" coords="1605,1613,1782,1656"/>
+<area shape="poly" id="edge179_Node000107_Node000108" title=" " alt="" coords="1497,1590,1605,1613,1604,1618,1496,1595"/>
+<area shape="rect" id="Node000110" href="$class_direct_output_1_1_f_x_1_1_matrix_f_x_1_1_analog_alpha_matrix_shift_effect.html" title="Same kind of effect like the RGBAMatrixShift effect, but for AnalogAlpha elements (just about everyth..." alt="" coords="1598,1680,1789,1723"/>
+<area shape="poly" id="edge181_Node000109_Node000110" title=" " alt="" coords="1497,1667,1598,1683,1597,1689,1496,1672"/>
+<area shape="rect" id="Node000111" href="$class_direct_output_1_1_f_x_1_1_matrix_f_x_1_1_r_g_b_a_matrix_shift_effect.html" title=" " alt="" coords="1605,1747,1782,1789"/>
+<area shape="poly" id="edge182_Node000109_Node000111" title=" " alt="" coords="1496,1682,1518,1692,1532,1703,1542,1713,1552,1723,1566,1732,1605,1748,1603,1753,1563,1737,1548,1727,1538,1717,1529,1707,1515,1697,1494,1687"/>
+<area shape="rect" id="Node000113" href="$class_direct_output_1_1_f_x_1_1_matrix_f_x_1_1_analog_alpha_matrix_value_effect.html" title="Sets the spefied area of matrix to the specified values depending on the trigger value." alt="" coords="1595,1813,1792,1856"/>
+<area shape="poly" id="edge184_Node000112_Node000113" title=" " alt="" coords="1496,1767,1517,1775,1565,1799,1599,1810,1598,1815,1563,1804,1515,1780,1494,1771"/>
+<area shape="rect" id="Node000114" href="$class_direct_output_1_1_f_x_1_1_matrix_f_x_1_1_r_g_b_a_matrix_color_effect.html" title="Sets the spefied area of matrix to the specified colors depending on the trigger value." alt="" coords="1605,1880,1782,1923"/>
+<area shape="poly" id="edge185_Node000112_Node000114" title=" " alt="" coords="1496,1760,1518,1775,1536,1799,1543,1822,1549,1845,1566,1866,1585,1878,1605,1886,1603,1891,1582,1882,1563,1870,1544,1847,1537,1824,1531,1801,1515,1779,1493,1765"/>
+<area shape="rect" id="Node000119" href="$class_direct_output_1_1_f_x_1_1_r_g_b_a_f_x_1_1_r_g_b_a_color_effect.html" title="The effects sets the color of a RGBAToy based on the trigger value." alt="" coords="1268,1923,1516,1965"/>
+<area shape="poly" id="edge190_Node000118_Node000119" title=" " alt="" coords="1191,1971,1267,1959,1268,1965,1192,1976"/>
+<area shape="poly" id="edge195_Node000103_Node000093" title=" " alt="" coords="869,1651,970,1651,970,1656,869,1656"/>
+<area shape="rect" id="Node000098" href="$interface_direct_output_1_1_f_x_1_1_matrix_f_x_1_1_i_matrix_bitmap_effect.html" title=" " alt="" coords="991,1372,1168,1415"/>
+<area shape="poly" id="edge192_Node000103_Node000098" title=" " alt="" coords="802,1620,1050,1413,1053,1417,805,1624"/>
+<area shape="poly" id="edge193_Node000098_Node000094" title=" " alt="" coords="1135,1362,1331,1262,1334,1267,1138,1367"/>
+<area shape="poly" id="edge194_Node000098_Node000099" title=" " alt="" coords="1183,1391,1303,1391,1303,1396,1183,1396"/>
+<area shape="poly" id="edge199_Node000015_Node000016" title=" " alt="" coords="603,2304,639,2312,694,2323,693,2329,638,2317,601,2309"/>
+<area shape="poly" id="edge201_Node000015_Node000028" title=" " alt="" coords="536,2311,567,2343,593,2381,612,2432,619,2478,618,2521,614,2561,610,2601,610,2642,619,2686,641,2735,667,2775,695,2804,724,2826,755,2843,820,2879,856,2903,893,2937,907,2955,915,2972,924,2986,940,3000,984,3020,982,3025,937,3005,920,2990,910,2974,902,2958,889,2940,852,2907,818,2883,752,2848,721,2830,692,2808,663,2778,636,2737,614,2688,605,2643,604,2601,608,2561,613,2521,613,2479,606,2434,588,2384,563,2346,532,2315"/>
+<area shape="poly" id="edge200_Node000015_Node000024" title=" " alt="" coords="530,2312,562,2344,592,2381,647,2464,694,2549,756,2680,751,2682,689,2552,642,2467,588,2384,558,2348,526,2315"/>
+<area shape="poly" id="edge202_Node000015_Node000075" title=" " alt="" coords="512,2246,553,2168,572,2121,588,2073,594,2010,596,1904,596,1619,598,1471,604,1339,616,1237,625,1202,636,1180,657,1163,661,1167,640,1183,630,1204,621,1238,610,1339,604,1471,602,1619,602,1904,599,2011,593,2074,577,2123,557,2171,516,2248"/>
+<area shape="poly" id="edge203_Node000015_Node000078" title=" " alt="" coords="528,2247,745,2060,749,2064,532,2251"/>
+<area shape="rect" id="Node000124" href="$class_direct_output_1_1_f_x_1_1_matrix_f_x_1_1_bitmap_shapes_1_1_shape.html" title=" " alt="" coords="676,2193,853,2236"/>
+<area shape="poly" id="edge204_Node000015_Node000124" title=" " alt="" coords="596,2253,675,2234,676,2239,597,2258"/>
+<area shape="rect" id="Node000126" href="$class_direct_output_1_1_general_1_1_bitmap_handling_1_1_fast_image.html" title=" " alt="" coords="670,2260,859,2303"/>
+<area shape="poly" id="edge206_Node000015_Node000126" title=" " alt="" coords="606,2279,669,2279,669,2284,606,2284"/>
+<area shape="rect" id="Node000014" href="$class_direct_output_1_1_general_1_1_curve.html" title="Represents a curve which can be used to map values (e.g. adjust a brighnetss value of a led to the br..." alt="" coords="673,975,856,1001"/>
+<area shape="poly" id="edge207_Node000015_Node000014" title=" " alt="" coords="512,2245,553,2168,573,2121,588,2073,595,1998,596,1872,593,1534,594,1358,600,1200,613,1079,623,1038,636,1012,653,998,672,989,674,994,655,1002,640,1015,628,1040,618,1080,605,1201,600,1358,599,1534,602,1872,600,1999,593,2074,578,2123,558,2170,517,2248"/>
+<area shape="rect" id="Node000125" href="$class_direct_output_1_1_f_x_1_1_matrix_f_x_1_1_bitmap_shapes_1_1_shape_animated.html" title=" " alt="" coords="978,2215,1180,2257"/>
+<area shape="poly" id="edge205_Node000124_Node000125" title=" " alt="" coords="869,2219,978,2226,977,2232,869,2224"/>
+<area shape="rect" id="Node000128" title=" " alt="" coords="411,683,572,709"/>
+<area shape="rect" id="Node000127" href="$class_direct_output_1_1_general_1_1_file_pattern.html" title="A file pattern class used to lookup files matching a specified pattern." alt="" coords="680,675,849,717"/>
+<area shape="poly" id="edge208_Node000128_Node000127" title=" " alt="" coords="588,693,679,693,679,699,588,699"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="434,448,549,475"/>
+<area shape="poly" id="edge209_Node000005_Node000004" title=" " alt="" coords="527,481,578,513,639,543,671,554,669,559,637,548,576,517,524,486"/>
+<area shape="poly" id="edge210_Node000005_Node000006" title=" " alt="" coords="512,486,564,549,600,582,640,610,666,621,664,626,637,614,596,586,561,553,508,489"/>
+<area shape="poly" id="edge211_Node000005_Node000007" title=" " alt="" coords="563,451,588,434,610,403,618,371,617,339,612,307,607,275,606,242,614,208,636,176,652,163,669,153,672,158,655,167,640,179,619,211,611,242,612,274,617,306,622,339,623,372,614,405,592,438,565,455"/>
+<area shape="poly" id="edge212_Node000005_Node000008" title=" " alt="" coords="563,450,589,434,605,411,613,388,614,364,612,340,610,316,611,291,619,266,636,242,666,222,669,227,640,246,623,269,616,292,615,316,617,340,619,364,618,389,610,414,592,438,566,455"/>
+<area shape="poly" id="edge213_Node000005_Node000009" title=" " alt="" coords="563,449,589,434,601,419,608,405,612,373,616,341,623,324,637,309,666,290,669,295,640,313,628,327,621,342,617,374,613,406,606,422,592,438,566,454"/>
+<area shape="poly" id="edge214_Node000005_Node000010" title=" " alt="" coords="562,447,589,434,604,416,612,397,619,378,637,359,662,346,665,351,640,363,624,381,617,399,609,419,592,438,565,452"/>
+<area shape="poly" id="edge215_Node000005_Node000011" title=" " alt="" coords="564,442,589,434,613,421,637,410,678,398,679,403,639,414,615,426,591,438,565,447"/>
+<area shape="poly" id="edge216_Node000005_Node000012" title=" " alt="" coords="565,454,675,448,675,453,565,460"/>
+<area shape="poly" id="edge217_Node000005_Node000013" title=" " alt="" coords="565,472,673,492,672,498,564,477"/>
+<area shape="poly" id="edge218_Node000005_Node000014" title=" " alt="" coords="511,487,552,567,574,618,593,670,602,715,604,756,597,828,596,862,600,894,614,927,640,961,655,973,674,981,671,986,653,977,636,965,609,929,595,895,591,862,592,828,599,756,597,716,588,671,569,620,547,569,506,489"/>
+<area shape="poly" id="edge219_Node000005_Node000127" title=" " alt="" coords="507,487,528,527,557,573,595,621,640,660,681,680,679,685,637,665,591,624,553,577,523,529,503,490"/>
+<area shape="rect" id="Node000121" href="$class_direct_output_1_1_general_1_1_color_1_1_r_g_b_a_color.html" title="This class stores information on colors used for toys and effects (e.g. RGBLed)." alt="" coords="155,2931,338,2973"/>
+<area shape="poly" id="edge220_Node000121_Node000120" title=" " alt="" coords="353,2949,399,2949,399,2955,353,2955"/>
+<area shape="rect" id="Node000123" href="$class_direct_output_1_1_general_1_1_color_1_1_r_g_b_color.html" title="This class stores information on RGB colors used for toys and effects (e.g. RGBLed)." alt="" coords="155,2997,338,3040"/>
+<area shape="poly" id="edge221_Node000123_Node000122" title=" " alt="" coords="353,3016,399,3016,399,3021,353,3021"/>
+</map>

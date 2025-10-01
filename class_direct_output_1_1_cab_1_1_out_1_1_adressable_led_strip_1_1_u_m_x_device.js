@@ -1,0 +1,58 @@
+var class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device =
+[
+    [ "DataLine", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device_1_1_data_line.html", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device_1_1_data_line" ],
+    [ "LedStripDescriptor", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device_1_1_led_strip_descriptor.html", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device_1_1_led_strip_descriptor" ],
+    [ "LedStripSplit", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device_1_1_led_strip_split.html", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device_1_1_led_strip_split" ],
+    [ "LedChipset", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#a5d7b6886b9a097c93d608d200d34d117", [
+      [ "WS2811", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#a5d7b6886b9a097c93d608d200d34d117adc803d0bbe4b4511c453f72ac9ab89c1", null ],
+      [ "WS2812", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#a5d7b6886b9a097c93d608d200d34d117a842e1594958a0f57e8860007f986e712", null ],
+      [ "WS2812B", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#a5d7b6886b9a097c93d608d200d34d117a3c05d0de9c7795cf0be6a1d9b9bbad7b", null ],
+      [ "WS2813", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#a5d7b6886b9a097c93d608d200d34d117af8ee633a555672d5c5d98993a996c3e3", null ],
+      [ "WS2815", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#a5d7b6886b9a097c93d608d200d34d117abae71e8715ff83748c59a8d4c6c50286", null ],
+      [ "SK6812", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#a5d7b6886b9a097c93d608d200d34d117a55a22d0f764c0a9f634872dec3e20f64", null ]
+    ] ],
+    [ "TestMode", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#a783b710fe34a8b0c62a8b7007fbe5529", [
+      [ "None", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#a783b710fe34a8b0c62a8b7007fbe5529a6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "RGB", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#a783b710fe34a8b0c62a8b7007fbe5529a889574aebacda6bfd3e534e2b49b8028", null ],
+      [ "Colors", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#a783b710fe34a8b0c62a8b7007fbe5529a5d50889672f6f860d14f502de3de1957", null ],
+      [ "RGBLaser", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#a783b710fe34a8b0c62a8b7007fbe5529abd963e2252f3cefa3a14a5a122691a1d", null ]
+    ] ],
+    [ "UMXCommand", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#af3f4980772bf7fda09793bf5a0988d97", [
+      [ "UMX_Handshake", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#af3f4980772bf7fda09793bf5a0988d97af6a9bd3e1e8de9934aa33ecf128e9d67", null ],
+      [ "UMX_GetInfos", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#af3f4980772bf7fda09793bf5a0988d97a50935322e1564d9a62b555e3dda2ce71", null ],
+      [ "UMX_GetConfig", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#af3f4980772bf7fda09793bf5a0988d97a8fb72db34efdcf1ad885f0e0fcb22278", null ],
+      [ "UMX_AllOff", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#af3f4980772bf7fda09793bf5a0988d97ad566a7ff50b37d4cb2de4c19eacc5972", null ],
+      [ "UMX_SendStripsData", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#af3f4980772bf7fda09793bf5a0988d97a81d453c81882c5f9660018fe00b8d9fc", null ],
+      [ "UMX_StartTest", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#af3f4980772bf7fda09793bf5a0988d97a3e1a6fba5ef5b3ba0c88e7731fab399a", null ]
+    ] ],
+    [ "ComputeNumOutputs", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#af0c48d526c0aeac8c898d8219dc259a7", null ],
+    [ "CreateDataLines", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#aedae973f3c1944136762702634e0675a", null ],
+    [ "Initialize", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#abbe051ad4c55af3b2f38099530396bfe", null ],
+    [ "NumOutputs", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#a90f5b8c251c5e4df8cbb8c4bce9d72fa", null ],
+    [ "ResetDataLines", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#ad4e19b3f6963f8071b94aa8a745dc421", null ],
+    [ "SendCommand", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#a772b1ccb798abf53da5c641792862fa2", null ],
+    [ "ToString", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#ae06faf35e5517a5cf1ec63323a43a06d", null ],
+    [ "UnitNo", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#aa02e809e90be2094e98f78ee71c4c79e", null ],
+    [ "WaitAck", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#a6330e46447ccb24c0b9f7f2d61278e67", null ],
+    [ "activityLed", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#acf1954c34be8759ee071700ee435d993", null ],
+    [ "compressionRatio", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#a40fa41725aefa75bd64acfa52de7d5d4", null ],
+    [ "DataLines", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#aa8cb56f3f60c9f37dcea09d57f7b1283", null ],
+    [ "enabled", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#abf3bf265f1a3599154bcc8a3a705de1e", null ],
+    [ "ledChipset", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#a5cf10b3e8e472fa89ac69610faeb5eb5", null ],
+    [ "LedStrips", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#af5d3172795a30d4f269d3ea3602f9e22", null ],
+    [ "ledWizEquivalent", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#af3b2d73bfa929ec36c72546beca7f160", null ],
+    [ "LongestDataLineNbLeds", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#af0bd6c4ba965352669431b6317c3d0e6", null ],
+    [ "maxDataLines", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#a24cf23cfe682c40229c0649d156f1b93", null ],
+    [ "maxNbLeds", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#a6ffe13c4a9033e37050d5f9c0c38942a", null ],
+    [ "name", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#abebcd3fd53d9357757f9560371ce22da", null ],
+    [ "numOutputs", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#a6ef2a50eb357e4629c5ff7bc795ee5df", null ],
+    [ "testBrightness", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#a422e750b0893816c967a51e90249039c", null ],
+    [ "testOnConnect", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#ad0349687a317044ca9e419475e855990", null ],
+    [ "testOnConnectDuration", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#a672401eca6a4decbea290288877ceb60", null ],
+    [ "testOnReset", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#a79dc927103ecd4b0f98faad4f68ffb7b", null ],
+    [ "testOnResetDuration", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#ab1f7f53c69e8b2584da64129657d8b71", null ],
+    [ "totalLeds", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#a046215b50e0029b20e355f31c554ab4e", null ],
+    [ "umxVersion", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#ac67ab5f77f59bee63b133803a39e8ce7", null ],
+    [ "unitNo", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#a71c9112ff386738157f3d1fb2e26d054", null ],
+    [ "Enabled", "class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html#a92c8603efe7236cf63b787e9f11e171e", null ]
+];

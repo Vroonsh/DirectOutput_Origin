@@ -1,0 +1,5 @@
+<map id="DirectOutput.Cab.Out.DudesCab.UMXDudesCabDevice" name="DirectOutput.Cab.Out.DudesCab.UMXDudesCabDevice">
+<area shape="rect" id="Node000001" title="UMXDudesCabDevice is the DudesCab version of the UMXDevice It handles communication with the DudesCab..." alt="" coords="19,96,209,139"/>
+<area shape="rect" id="Node000002" href="$class_direct_output_1_1_cab_1_1_out_1_1_adressable_led_strip_1_1_u_m_x_device.html" title="The UMXDevice is a base class for any implementation of the UMX (Unified MX) protocol for adressable ..." alt="" coords="5,5,223,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,64,117,96,111,96,111,64"/>
+</map>

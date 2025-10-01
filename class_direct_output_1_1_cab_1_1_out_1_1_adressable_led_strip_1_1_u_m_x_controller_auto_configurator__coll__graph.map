@@ -1,0 +1,5 @@
+<map id="DirectOutput.Cab.Out.AdressableLedStrip.UMXControllerAutoConfigurator" name="DirectOutput.Cab.Out.AdressableLedStrip.UMXControllerAutoConfigurator">
+<area shape="rect" id="Node000001" title="The UMXControllerAutoConfigurator centralizes all incoming UMX Controllers addition from several sour..." alt="" coords="5,96,263,139"/>
+<area shape="rect" id="Node000002" href="$interface_direct_output_1_1_cab_1_1_out_1_1_i_auto_config_output_controller.html" title="Interface for classes used to automatically detect and configure output controllers." alt="" coords="42,5,226,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,64,137,96,131,96,131,64"/>
+</map>
