@@ -49,8 +49,8 @@ jobs:
         
     - name: Copy XML documentation to expected location
       run: |
-        mkdir -Force "bin\Release"
-        copy "bin\Debug\DirectOutput.xml" "bin\Release\DirectOutput.XML"
+        mkdir -Force "bin\x86\Release"
+        copy "bin\x86\Debug\DirectOutput.xml" "bin\x86\Release\DirectOutput.XML"
         
     - name: Build DocumentationHelper
       run: |
@@ -112,4 +112,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs-artifact
           force_orphan: true
+
 
