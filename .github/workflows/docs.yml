@@ -55,6 +55,7 @@ jobs:
     - name: Build DocumentationHelper
       run: |
         msbuild DocumentationHelper/DocumentationHelper.csproj /p:Configuration=Release /p:Platform=x86
+        copy "bin\x86\Release\DocumentationHelper.exe" "bin\Release\DocumentationHelper.exe"
         
     - name: Generate dynamic documentation files
       run: |
@@ -112,3 +113,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs-artifact
           force_orphan: true
+
