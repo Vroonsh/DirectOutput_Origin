@@ -112,6 +112,3 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs-artifact
           force_orphan: true
-
-
-
