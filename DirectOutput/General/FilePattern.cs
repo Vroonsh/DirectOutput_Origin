@@ -120,6 +120,7 @@ namespace DirectOutput.General
         /// Gets the files matching the value of the property Pattern.
         /// </summary>
         /// <param name="ReplaceValues">Dictionary containing key/value pairs used to replace placeholders in the form {PlaceHolder} in the pattern.</param>
+        /// <param name="ExcludeExtensions">List of file extensions which should be ignored (in the for ".ext")</param>
         /// <returns>The list of files matching the value of the property Pattern or a empty list if no file matches the pattern.</returns>
         public List<FileInfo> GetMatchingFiles(Dictionary<string, string> ReplaceValues = null, List<string> ExcludeExtensions = null)
         {
@@ -154,6 +155,7 @@ namespace DirectOutput.General
         /// Gets the first file matching the value of the Pattern property.
         /// </summary>
         /// <param name="ReplaceValues">Dictionary containing key/value pairs used to replace placeholders in the form {PlaceHolder} in the pattern.</param>
+        /// <param name="ExcludeExtensions">List of file extensions which should be ignored (in the for ".ext")</param>
         /// <returns>The first file matching the value of the Pattern property or null if no file matches the pattern.</returns>
         public FileInfo GetFirstMatchingFile(Dictionary<string, string> ReplaceValues = null, List<string> ExcludeExtensions = null)
         {

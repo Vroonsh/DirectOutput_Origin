@@ -110,19 +110,19 @@ namespace DirectOutput.LedControl.Loader
             }
             catch (Exception E)
             {
-                Log.Exception("Could not read file {0}.".Build(LedControlIniFile), E);
+                Log.Exception($"Could not read file {LedControlIniFile}.", E);
                 if (ThrowExceptions)
                 {
 
-                    throw new Exception("Could not read file {0}.".Build(LedControlIniFile), E);
+                    throw new Exception($"Could not read file {LedControlIniFile}.", E);
                 }
             }
             if (FileData.IsNullOrWhiteSpace())
             {
-                Log.Warning("File {0} does not contain data.".Build(LedControlIniFile));
+                Log.Warning($"File {LedControlIniFile} does not contain data.");
                 if (ThrowExceptions)
                 {
-                    throw new Exception("File {0} does not contain data.".Build(LedControlIniFile));
+                    throw new Exception($"File {LedControlIniFile} does not contain data.");
                 }
             }
             #endregion
@@ -146,12 +146,12 @@ namespace DirectOutput.LedControl.Loader
                             if (Sections.ContainsKey(SectionHeader))
                             {
                                 int Cnt = 2;
-                                while (Sections.ContainsKey("{0} {1}".Build(SectionHeader, Cnt)))
+                                while (Sections.ContainsKey($"{SectionHeader} {Cnt}"))
                                 {
                                     Cnt++;
-                                    if (Cnt > 999) { throw new Exception("Section header {0} exists to many times.".Build(SectionHeader)); }
+                                    if (Cnt > 999) { throw new Exception($"Section header {SectionHeader} exists to many times."); }
                                 }
-                                SectionHeader = "{0} {1}".Build(SectionHeader, Cnt);
+                                SectionHeader = $"{SectionHeader} {Cnt}";
                             }
                             Sections.Add(SectionHeader, SectionData);
                             SectionData = new List<string>();
@@ -171,12 +171,12 @@ namespace DirectOutput.LedControl.Loader
                 if (Sections.ContainsKey(SectionHeader))
                 {
                     int Cnt = 2;
-                    while (Sections.ContainsKey("{0} {1}".Build(SectionHeader, Cnt)))
+                    while (Sections.ContainsKey($"{SectionHeader} {Cnt}"))
                     {
                         Cnt++;
-                        if (Cnt > 999) { throw new Exception("Section header {0} exists to many times.".Build(SectionHeader)); }
+                        if (Cnt > 999) { throw new Exception($"Section header {SectionHeader} exists to many times."); }
                     }
-                    SectionHeader = "{0} {1}".Build(SectionHeader, Cnt);
+                    SectionHeader = $"{SectionHeader} {Cnt}";
                 }
                 Sections.Add(SectionHeader, SectionData);
                 SectionData = new List<string>();
@@ -225,7 +225,7 @@ namespace DirectOutput.LedControl.Loader
             }
             else
             {
-                Log.Warning("No version section found in file {0}.".Build(LedControlIniFile));
+                Log.Warning($"No version section found in file {LedControlIniFile}.");
             }
 
             if (ColorData == null)
@@ -252,33 +252,35 @@ namespace DirectOutput.LedControl.Loader
                 Log.Warning("Could not find table config section in file {0}.".Build(LedControlIniFile));
                 if (ThrowExceptions)
                 {
-                    throw new Exception("Could not find table config section section in file {1}.".Build(LedControlIniFile));
+                    throw new Exception($"Could not find table config section section in file {LedControlIniFile}.");
                 }
                 return;
             }
             else if (OutData.Count < 1)
             {
-                Log.Warning("File {0} does not contain data in the table config section.".Build(LedControlIniFile));
+                Log.Warning($"File {LedControlIniFile} does not contain data in the table config section.");
                 if (ThrowExceptions)
                 {
-                    throw new Exception("File {0} does not contain data in the table config section".Build(LedControlIniFile));
+                    throw new Exception($"File {LedControlIniFile} does not contain data in the table config section");
                 }
                 return;
             }
 
             //Resolve tables variables first in case they override global variables (like custom flasher mx shapes)
             if (TableVariableData != null) {
-                Log.Write("Resolving Tables Variables ({0})".Build(LedControlIniFile));
+                Log.Write($"Resolving Tables Variables ({LedControlIniFile})");
                 ResolveTableVariables(OutData, TableVariableData);
             }
 
             if (VariableData != null)
             {
-                Log.Write("Resolving Global Variables ({0})".Build(LedControlIniFile));
+                Log.Write($"Resolving Global Variables ({LedControlIniFile})");
                 ResolveVariables(OutData, VariableData);
             }
 
+            Log.Write($"Parsing Color Configurations ({LedControlIniFile})");
             ColorConfigurations.ParseLedControlData(ColorData, ThrowExceptions);
+            Log.Write($"{ColorConfigurations.Count} Color Configurations parsed.");
 
             Log.Write($"Parsing Tables Configurations ({LedControlIniFile})");
             TableConfigurations.ParseLedcontrolData(OutData, RomName, GlobalConfig, ThrowExceptions);

@@ -74,20 +74,12 @@ namespace DirectOutput.FX.MatrixFX
             {
                 for (int Y = 0; Y <= Pixels.GetUpperBound(1); Y++)
                 {
-
                     for (int X = 0; X <= Pixels.GetUpperBound(0); X++)
                     {
                         Pixels[X, Y].Colorize(ActiveColor, InactiveColor);
                     }
-
                 }
-
-
             }
-
         }
-
-
-
     }
 }
