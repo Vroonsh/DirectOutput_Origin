@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DirectOutput.GlobalConfiguration;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -14,14 +15,15 @@ namespace DirectOutput.LedControl.Loader
         /// </summary>
         /// <param name="TableConfigDataFromLedControlIni">The table config data from led control ini.</param>
         /// <param name="RomName">Specify a rom name at loading stage to ignore parsing of non matching lines</param>
+        /// <param name="GlobalConfig">The current global configuration.</param>
         /// <param name="ThrowExceptions">if set to <c>true</c> [throw exceptions].</param>
-        public void ParseLedcontrolData(IEnumerable<string> TableConfigDataFromLedControlIni, string RomName, bool ThrowExceptions = true)
+        public void ParseLedcontrolData(IEnumerable<string> TableConfigDataFromLedControlIni, string RomName, GlobalConfig GlobalConfig, bool ThrowExceptions = true)
         {
             foreach (string Data in TableConfigDataFromLedControlIni)
             {
                 if (!Data.IsNullOrWhiteSpace())
                 {
-                    ParseLedcontrolData(Data, RomName, ThrowExceptions);
+                    ParseLedcontrolData(Data, RomName, GlobalConfig, ThrowExceptions);
                 }
             }
         }
@@ -32,18 +34,19 @@ namespace DirectOutput.LedControl.Loader
         /// </summary>
         /// <param name="TableConfigDataLineFromLedControlIni">The table config data line from led control ini.</param>
         /// <param name="RomName">Specify a rom name at loading stage to ignore parsing of non matching lines</param>
+        /// <param name="GlobalConfig">The current global configuration.</param>
         /// <param name="ThrowExceptions">if set to <c>true</c> [throw exceptions].</param>
         /// <exception cref="System.Exception">
         /// Could not load table config from data line: {0}
         /// or
         /// Table with ShortRomName {0} has already been loaded.
         /// </exception>
-        public void ParseLedcontrolData(string TableConfigDataLineFromLedControlIni, string RomName, bool ThrowExceptions = true)
+        public void ParseLedcontrolData(string TableConfigDataLineFromLedControlIni, string RomName, GlobalConfig GlobalConfig, bool ThrowExceptions = true)
         {
             TableConfig TC=null;
             try
             {
-                TC = new TableConfig(TableConfigDataLineFromLedControlIni, RomName, ThrowExceptions);
+                TC = new TableConfig(TableConfigDataLineFromLedControlIni, RomName, GlobalConfig, ThrowExceptions);
 
             }
             catch (Exception E)

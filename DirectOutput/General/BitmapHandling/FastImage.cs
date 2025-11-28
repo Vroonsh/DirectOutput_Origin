@@ -25,6 +25,14 @@ namespace DirectOutput.General.BitmapHandling
             private set { _Frames = value; }
         }
 
+        private bool _UseCache = false;
+
+        public bool UseCache
+        {
+            get { return _UseCache; }
+            set { _UseCache = value; }
+        }
+
         public static string RawImageExtension => ".rawimage";
 
         private bool LoadCachedImage(string ImageFilePath)
@@ -91,7 +99,7 @@ namespace DirectOutput.General.BitmapHandling
         {
             Frames = new Dictionary<int, FastBitmap>();
 
-            if (!LoadCachedImage(ImageFilePath)) 
+            if (!UseCache || !LoadCachedImage(ImageFilePath)) 
             {
                 Log.Instrumentation("Image", $"Loading image file {ImageFilePath}.");
                 Image Img = Image.FromFile(ImageFilePath);
@@ -113,7 +121,9 @@ namespace DirectOutput.General.BitmapHandling
                 Img.Dispose();
                 Log.Instrumentation("Image", $"Image loaded.");
 
-                SaveCachedImage(ImageFilePath);
+                if (UseCache) {
+                    SaveCachedImage(ImageFilePath);
+                }
             }
         }
 
@@ -124,8 +134,9 @@ namespace DirectOutput.General.BitmapHandling
         }
 
 
-        public FastImage(string Name) :this()
+        public FastImage(string Name, bool UseCache = false) :this()
         {
+            this.UseCache = UseCache;
             this.Name = Name;
         }
 

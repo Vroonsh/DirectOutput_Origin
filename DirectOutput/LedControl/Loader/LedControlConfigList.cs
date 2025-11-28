@@ -54,12 +54,13 @@ namespace DirectOutput.LedControl.Loader
         /// </summary>
         /// <param name="LedControlFilenames">The list of ledcontrol.ini files</param>
         /// <param name="RomName">Specify a rom name at loading stage to ignore parsing of non matching lines</param>
+        /// <param name="GlobalConfig">The current global configuration.</param>
         /// <param name="ThrowExceptions">if set to <c>true</c> throw exceptions on errors.</param>
-        public void LoadLedControlFiles(IList<string> LedControlFilenames, string RomName, bool ThrowExceptions = false)
+        public void LoadLedControlFiles(IList<string> LedControlFilenames, string RomName, GlobalConfig GlobalConfig, bool ThrowExceptions = false)
         {
             for (int i = 0; i < LedControlFilenames.Count; i++)
             {
-                LoadLedControlFile(LedControlFilenames[i], i + 1, RomName, ThrowExceptions);
+                LoadLedControlFile(LedControlFilenames[i], i + 1, RomName, GlobalConfig, ThrowExceptions);
             }
         }
 
@@ -68,12 +69,13 @@ namespace DirectOutput.LedControl.Loader
         /// </summary>
         /// <param name="LedControlIniFiles">The dictionary of ini files to be loaded.</param>
         /// <param name="RomName">Specify a rom name at loading stage to ignore parsing of non matching lines</param>
+        /// <param name="GlobalConfig">The current global configuration.</param>
         /// <param name="ThrowExceptions">if set to <c>true</c> throw exceptions on errors.</param>
-        public void LoadLedControlFiles(Dictionary<int, FileInfo> LedControlIniFiles, string RomName, bool ThrowExceptions = false)
+        public void LoadLedControlFiles(Dictionary<int, FileInfo> LedControlIniFiles, string RomName, GlobalConfig GlobalConfig, bool ThrowExceptions = false)
         {
             foreach (KeyValuePair<int,FileInfo> F in LedControlIniFiles)
             {
-                LoadLedControlFile(F.Value.FullName, F.Key, RomName, ThrowExceptions);
+                LoadLedControlFile(F.Value.FullName, F.Key, RomName, GlobalConfig, ThrowExceptions);
             }
         }
 
@@ -84,12 +86,13 @@ namespace DirectOutput.LedControl.Loader
         /// <param name="LedControlFilename">The ledcontrol.ini filename.</param>
         /// <param name="LedWizNumber">The number of the LedWizEquivalent to be used for the output of the configuration in the file.</param>
         /// <param name="RomName">Specify a rom name at loading stage to ignore parsing of non matching lines</param>
+        /// <param name="GlobalConfig">The current global configuration.</param>
         /// <param name="ThrowExceptions">if set to <c>true</c> throws exceptions on errors.</param>
-        public void LoadLedControlFile(string LedControlFilename, int LedWizNumber, string RomName, bool ThrowExceptions = false)
+        public void LoadLedControlFile(string LedControlFilename, int LedWizNumber, string RomName, GlobalConfig GlobalConfig, bool ThrowExceptions = false)
         {
             Log.Write("Loading LedControl file {0}".Build(LedControlFilename));
 
-            LedControlConfig LCC = new LedControlConfig(LedControlFilename, LedWizNumber, RomName, ThrowExceptions);
+            LedControlConfig LCC = new LedControlConfig(LedControlFilename, LedWizNumber, RomName, GlobalConfig, ThrowExceptions);
             Add(LCC);
         }
 
@@ -103,11 +106,12 @@ namespace DirectOutput.LedControl.Loader
         /// </summary>
         /// <param name="LedControlFilenames">The filenames of the ledcontrol.ini files to be loaded.</param>
         /// <param name="RomName">Specify a rom name at loading stage to ignore parsing of non matching lines</param>
+        /// <param name="GlobalConfig">The current global configuration.</param>
         /// <param name="ThrowExceptions">if set to <c>true</c> exceptions on loading the files are shown.</param>
-        public LedControlConfigList(IList<string> LedControlFilenames, string RomName, bool ThrowExceptions = false)
+        public LedControlConfigList(IList<string> LedControlFilenames, string RomName, GlobalConfig GlobalConfig, bool ThrowExceptions = false)
             : this()
         {
-            LoadLedControlFiles(LedControlFilenames, RomName, ThrowExceptions);
+            LoadLedControlFiles(LedControlFilenames, RomName, GlobalConfig, ThrowExceptions);
         }
 
 

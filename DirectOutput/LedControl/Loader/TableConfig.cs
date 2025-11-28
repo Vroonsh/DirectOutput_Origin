@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DirectOutput.GlobalConfiguration;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -53,13 +54,14 @@ namespace DirectOutput.LedControl.Loader
         /// </summary>
         /// <param name="LedControlData">One line of data from led control ini.</param>
         /// <param name="RomName">Specify a rom name at loading stage to ignore parsing of non matching lines</param>
+        /// <param name="GlobalConfig">The current global configuration.</param>
         /// <param name="ThrowExceptions">If set to <c>true</c> the parser will throw exceptions if something wrong is found in the data, otherwise exceptions are ignored.</param>
         /// <exception cref="System.Exception">
         /// No usable data found in line {0}.
         /// or
         /// No short Rom name found in line {0}.
         /// </exception>
-        public void ParseLedControlDataLine(string LedControlData, string RomName, bool ThrowExceptions)
+        public void ParseLedControlDataLine(string LedControlData, string RomName, GlobalConfig GlobalConfig, bool ThrowExceptions)
         {
             //mm,L88 Blink I44,L87,ON Red,S37,S7,S48,S46/S1/S2,S10/S8,S11,S4 300 I32/S8 300 I32/W15 300 2/W25 300 2,S3/S4/S8/S33,S4/S9/S14/S26/S35,S4/S5/S12/S13/S34/S36,S4/S16/S27/S28,S7 300/S4 1500/S8 300/S33 300/S35 300,S7 White/S17 Red/S18 Red/S19 Red/W26 Magenta,S7 White/S24 Green/S25 Green/W15 Lime/W44 Green,S7 White/S22 Red/S24 Green,S7 White/S21 Red/S12 Magenta/S13 Magenta/W25 Lime,S7 White/S20 Red/S23 Red/S14 Magenta/W17 Magenta
 
@@ -87,7 +89,7 @@ namespace DirectOutput.LedControl.Loader
             //Assign Romname from first column
             ShortRomName = DataColumns[0];
             //If Romname was specified check if it matches, otherwize clear ShortRomName
-            if (!IsRomNameMatching(RomName)) {
+            if (GlobalConfig.FastInitialization && !IsRomNameMatching(RomName)) {
                 ShortRomName = string.Empty;
                 return;
             }
@@ -117,6 +119,7 @@ namespace DirectOutput.LedControl.Loader
         /// </summary>
         /// <param name="LedControlData">One line of data from led control ini.</param>
         /// <param name="RomName">Specify a rom name at loading stage to ignore parsing of non matching lines</param>
+        /// <param name="GlobalConfig">The current global configuration.</param>
         /// <param name="ThrowExceptions">If set to <c>true</c> the parser will throw exceptions if something wrong is found in the data, otherwise exceptions are ignored.</param>
         /// 0
         /// <exception cref="System.Exception">
@@ -124,10 +127,10 @@ namespace DirectOutput.LedControl.Loader
         /// or
         /// No short Rom name found in line {0}.
         /// </exception>
-        public TableConfig(string LedControlData, string RomName, bool ThrowExceptions)
+        public TableConfig(string LedControlData, string RomName, GlobalConfig GlobalConfig, bool ThrowExceptions)
             : this()
         {
-            ParseLedControlDataLine(LedControlData, RomName, ThrowExceptions);
+            ParseLedControlDataLine(LedControlData, RomName, GlobalConfig, ThrowExceptions);
         }
 
 
