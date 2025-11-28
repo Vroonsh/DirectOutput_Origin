@@ -35,9 +35,16 @@ namespace DirectOutput.General.BitmapHandling
 
         public static string RawImageExtension => ".rawimage";
 
+        private static string GetCachedImagePath(string ImageFilePath)
+        {
+            return Path.Combine(
+                Path.GetDirectoryName(ImageFilePath),
+                "cache") + Path.DirectorySeparatorChar + Path.GetFileName(ImageFilePath) + RawImageExtension;
+        }
+
         private bool LoadCachedImage(string ImageFilePath)
         {
-            string CachedImageFilePath = ImageFilePath + RawImageExtension;
+            string CachedImageFilePath = GetCachedImagePath(ImageFilePath);
             try {
                 if (File.Exists(CachedImageFilePath)) {
                     if (File.GetLastWriteTimeUtc(CachedImageFilePath) > File.GetLastWriteTimeUtc(ImageFilePath)) {
@@ -67,8 +74,11 @@ namespace DirectOutput.General.BitmapHandling
 
         private void SaveCachedImage(string ImageFilePath)
         {
-            string CachedImageFilePath = ImageFilePath + RawImageExtension;
+            string CachedImageFilePath = GetCachedImagePath(ImageFilePath);
             try {
+                if (!Directory.Exists(Path.GetDirectoryName(CachedImageFilePath))){
+                    Directory.CreateDirectory(Path.GetDirectoryName(CachedImageFilePath));
+                }
                 using (var stream = File.Open(CachedImageFilePath, FileMode.Create)) {
                     using (var writer = new BinaryWriter(stream, Encoding.UTF8, false)) {
                         Log.Instrumentation("Image", $"Saving cached image file {CachedImageFilePath}, {Frames.Count} frames.");
