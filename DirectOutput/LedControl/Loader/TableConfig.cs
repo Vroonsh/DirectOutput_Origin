@@ -89,7 +89,7 @@ namespace DirectOutput.LedControl.Loader
             //Assign Romname from first column
             ShortRomName = DataColumns[0];
             //If Romname was specified check if it matches, otherwize clear ShortRomName
-            if (GlobalConfig.FastInitialization && !IsRomNameMatching(RomName)) {
+            if (GlobalConfig?.FastInitialization ?? false && !IsRomNameMatching(RomName)) {
                 ShortRomName = string.Empty;
                 return;
             }
